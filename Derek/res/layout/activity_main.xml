@@ -8,12 +8,30 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
 
-    <TextView
-        android:id="@+id/textView1"
+    <Button
+        android:id="@+id/ProfileButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:text="Profile" />
 
-    
+    <Button
+        android:id="@+id/OptionsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="69dp"
+        android:text="Options" />
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="77dp"
+        android:layout_toLeftOf="@+id/OptionsButton"
+        android:text="Start" />
 
 </RelativeLayout>
